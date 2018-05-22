@@ -2,7 +2,7 @@
   "name": "my-resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/kkulg/resume.git",
+  "homepage": "https://kkulg.github.io/resume",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
@@ -95,6 +95,8 @@
     "extends": "react-app"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0"
+    "gh-pages": "^1.1.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1"
   }
 }

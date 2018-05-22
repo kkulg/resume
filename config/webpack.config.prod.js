@@ -13,6 +13,10 @@ const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const paths = require('./paths');
 const getClientEnvironment = require('./env');
 
+function resolve (dir) {
+  return path.join(__dirname, '..', dir)
+}
+
 // Webpack uses `publicPath` to determine where the app is being served from.
 // It requires a trailing slash, or the file assets will get an incorrect path.
 const publicPath = paths.servedPath;
@@ -94,6 +98,11 @@ module.exports = {
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
       'react-native': 'react-native-web',
+      '@': resolve('src'),
+      '@biz': resolve('src/biz'),
+      '@component': resolve('src/component'),
+      '@skin': resolve('src/skin'),
+      '@img': resolve('src/assets/img'),
     },
     plugins: [
       // Prevents users from importing files from outside of src/ (or node_modules/).
@@ -211,6 +220,10 @@ module.exports = {
               )
             ),
             // Note: this won't work without `new ExtractTextPlugin()` in `plugins`.
+          },
+          {
+            test: /\.scss$/,
+            loaders: ['style-loader', 'css-loader', 'sass-loader'],
           },
           // "file" loader makes sure assets end up in the `build` folder.
           // When you `import` an asset, you get its filename.
