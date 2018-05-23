@@ -1,0 +1,39 @@
+
+.k-top{
+  height: 100vh;
+  min-height: 600px;
+}
+.k-bg__img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  background: url(../../../../../assets/img/bg.png) center top no-repeat;
+  background-size: cover;
+  transform: translate3d(0px, 0px, 0px);
+}
+.k-inner{
+  position: relative;
+  z-index: 300;
+  text-align: center;
+  width: 100%;
+  transform: translate3d(0px, 50px, 0px);
+  color: #fff;
+}
+.k-title{
+  opacity: 0.8;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  font-size: 5rem;
+  font-family: Lactosa;
+}
+.k-post{
+  display: block;
+  opacity: 0.9;
+  transform: matrix(0.9962, -0.08716, 0.08716, 0.9962, 0, 0);
+  font-family: BeachSociety;
+  font-size: 8rem;
+}
