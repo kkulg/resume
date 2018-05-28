@@ -1,7 +1,12 @@
 {
-  "main.js": "static/js/main.3a70b543.js",
-  "main.js.map": "static/js/main.3a70b543.js.map",
+  "main.css": "static/css/main.344fb1ab.css",
+  "main.css.map": "static/css/main.344fb1ab.css.map",
+  "main.js": "static/js/main.c97ae0e1.js",
+  "main.js.map": "static/js/main.c97ae0e1.js.map",
   "static/media/BeachSociety.ttf": "static/media/BeachSociety.7149c3f5.ttf",
   "static/media/Lactosa.otf": "static/media/Lactosa.6c85e40e.otf",
-  "static/media/bg.jpg": "static/media/bg.3918803c.jpg"
+  "static/media/Schoolkid.ttf": "static/media/Schoolkid.79944b3e.ttf",
+  "static/media/bg.jpg": "static/media/bg.3918803c.jpg",
+  "static/media/ego.otf": "static/media/ego.6360c97f.otf",
+  "static/media/me.jpg": "static/media/me.59acbec9.jpg"
 }
