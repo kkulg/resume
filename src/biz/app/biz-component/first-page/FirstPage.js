@@ -8,7 +8,8 @@ class FirstPage extends Component {
       <div className="k-bg__img"></div>
       <div className="k-inner">
         <h1 className="k-title">
-          KKULG<span className="k-post">Front-end engineer</span>
+          <span className="k-nickname">KKULG</span>
+          <span className="k-post">Front-end engineer</span>
         </h1>
         <div className="k-summary"></div>
       </div>

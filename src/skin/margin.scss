@@ -1,0 +1,11 @@
+$base: 8px;
+
+.mt8{
+  margin-top: $base;
+}
+.mt16{
+  margin-top: 2 * $base;
+}
+.mt24{
+  margin-top: 3 * $base;
+}
